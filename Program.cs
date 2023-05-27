@@ -34,6 +34,7 @@ namespace SimpleAlarm
                     format = @"mm\:ss";
 
                 Console.Clear();
+                Console.Title = difference.ToString(format);
                 Console.WriteLine(difference.ToString(format));
                 Thread.Sleep(1000);
                 
@@ -53,9 +54,11 @@ namespace SimpleAlarm
 
                 while (true)
                 {
+                    Console.Title = "00:00:00";
                     Console.WriteLine("00:00:00");
                     Thread.Sleep(750);
                     Console.Clear();
+                    Console.Title = " ";
                     Thread.Sleep(750);
                 }
             }
