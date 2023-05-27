@@ -1,0 +1,5 @@
+D:\KodlamaProjeleri\c#\SimpleAlarm\bin\Release\net7.0\publish\SimpleAlarm.exe
+D:\KodlamaProjeleri\c#\SimpleAlarm\bin\Release\net7.0\publish\SimpleAlarm.dll
+D:\KodlamaProjeleri\c#\SimpleAlarm\bin\Release\net7.0\publish\SimpleAlarm.deps.json
+D:\KodlamaProjeleri\c#\SimpleAlarm\bin\Release\net7.0\publish\SimpleAlarm.runtimeconfig.json
+D:\KodlamaProjeleri\c#\SimpleAlarm\bin\Release\net7.0\publish\SimpleAlarm.pdb

@@ -1,0 +1,2 @@
+D:\KodlamaProjeleri\c#\SimpleAlarm\bin\Release\net7.0\publish\win-x64\SimpleAlarm.pdb
+D:\KodlamaProjeleri\c#\SimpleAlarm\bin\Release\net7.0\publish\win-x64\SimpleAlarm.exe

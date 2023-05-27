@@ -1,0 +1,15 @@
+D:\KodlamaProjeleri\c#\SimpleAlarm\bin\Release\net7.0\SimpleAlarm.exe
+D:\KodlamaProjeleri\c#\SimpleAlarm\bin\Release\net7.0\SimpleAlarm.deps.json
+D:\KodlamaProjeleri\c#\SimpleAlarm\bin\Release\net7.0\SimpleAlarm.runtimeconfig.json
+D:\KodlamaProjeleri\c#\SimpleAlarm\bin\Release\net7.0\SimpleAlarm.dll
+D:\KodlamaProjeleri\c#\SimpleAlarm\bin\Release\net7.0\SimpleAlarm.pdb
+D:\KodlamaProjeleri\c#\SimpleAlarm\obj\Release\net7.0\SimpleAlarm.csproj.AssemblyReference.cache
+D:\KodlamaProjeleri\c#\SimpleAlarm\obj\Release\net7.0\SimpleAlarm.GeneratedMSBuildEditorConfig.editorconfig
+D:\KodlamaProjeleri\c#\SimpleAlarm\obj\Release\net7.0\SimpleAlarm.AssemblyInfoInputs.cache
+D:\KodlamaProjeleri\c#\SimpleAlarm\obj\Release\net7.0\SimpleAlarm.AssemblyInfo.cs
+D:\KodlamaProjeleri\c#\SimpleAlarm\obj\Release\net7.0\SimpleAlarm.csproj.CoreCompileInputs.cache
+D:\KodlamaProjeleri\c#\SimpleAlarm\obj\Release\net7.0\SimpleAlarm.dll
+D:\KodlamaProjeleri\c#\SimpleAlarm\obj\Release\net7.0\refint\SimpleAlarm.dll
+D:\KodlamaProjeleri\c#\SimpleAlarm\obj\Release\net7.0\SimpleAlarm.pdb
+D:\KodlamaProjeleri\c#\SimpleAlarm\obj\Release\net7.0\SimpleAlarm.genruntimeconfig.cache
+D:\KodlamaProjeleri\c#\SimpleAlarm\obj\Release\net7.0\ref\SimpleAlarm.dll
