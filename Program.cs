@@ -1,4 +1,5 @@
 ﻿
+using System.Media;
 using System.Timers;
 using Timer = System.Timers.Timer;
 namespace SimpleAlarm
@@ -9,19 +10,21 @@ namespace SimpleAlarm
         static DateTime EndTime;
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter time (as minutes) for alarm. Eg: 1,2 means 72 seconds.");
-            
+
             while (true)
             {
-                if (double.TryParse(Console.ReadLine(), out minutes))
+                Console.WriteLine("Enter time (as minutes) for setting timer. Eg: 1,2 means 72 seconds.");
+                var input = Console.ReadLine();
+                //if(input.Contains('.'))
+                if (double.TryParse(input, out minutes))
                     break;
-                Console.WriteLine("Bad input. Please enter time (as minutes) for alarm:");
+                Console.WriteLine("Bad input.");
             }
 
             Console.CursorVisible = false;
 
             EndTime = DateTime.Now.AddMinutes(minutes);
-            Console.WriteLine(EndTime - DateTime.Now);
+            //Console.WriteLine(EndTime - DateTime.Now);
 
             string format = @"hh\:mm\:ss";
             while (true)
@@ -44,10 +47,9 @@ namespace SimpleAlarm
                 Timer timer = new Timer(1000);
                 timer.Elapsed += (_obj, _eventArgs) =>
                 {
-                    for (int i = 0; i < 4; i++)
-                    {
-                        Console.Beep(1300,100);
-                    }
+                    SoundPlayer soundPlayer = new SoundPlayer(GetEmbeddedResourceByName("Wowpulse.wav"));
+                    while (true)
+                        soundPlayer.PlaySync();
                 };
                 timer.Start();
 
@@ -62,6 +64,13 @@ namespace SimpleAlarm
                     Thread.Sleep(750);
                 }
             }
+        }
+
+        public static Stream? GetEmbeddedResourceByName(string NameWithExtension)
+        {
+            return System.Reflection.Assembly.GetExecutingAssembly()
+                .GetManifestResourceStream(System.Reflection.Assembly.GetExecutingAssembly().GetName().Name
+                + "." + NameWithExtension);
         }
     }
 }

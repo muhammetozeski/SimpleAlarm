@@ -13,3 +13,10 @@ D:\KodlamaProjeleri\c#\SimpleAlarm\obj\Debug\net7.0\refint\SimpleAlarm.dll
 D:\KodlamaProjeleri\c#\SimpleAlarm\obj\Debug\net7.0\SimpleAlarm.pdb
 D:\KodlamaProjeleri\c#\SimpleAlarm\obj\Debug\net7.0\SimpleAlarm.genruntimeconfig.cache
 D:\KodlamaProjeleri\c#\SimpleAlarm\obj\Debug\net7.0\ref\SimpleAlarm.dll
+D:\KodlamaProjeleri\c#\SimpleAlarm\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\KodlamaProjeleri\c#\SimpleAlarm\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\KodlamaProjeleri\c#\SimpleAlarm\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\KodlamaProjeleri\c#\SimpleAlarm\bin\Debug\net7.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\KodlamaProjeleri\c#\SimpleAlarm\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+D:\KodlamaProjeleri\c#\SimpleAlarm\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+D:\KodlamaProjeleri\c#\SimpleAlarm\obj\Debug\net7.0\SimpleAlarm.csproj.CopyComplete
